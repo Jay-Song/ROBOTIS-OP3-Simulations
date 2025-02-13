@@ -24,7 +24,7 @@ if(BUILD_TESTING)
 endif()
 
 install(
-  DIRECTORY config gazebo launch worlds
+  DIRECTORY config launch worlds
   DESTINATION share/${PROJECT_NAME}
 )
 
